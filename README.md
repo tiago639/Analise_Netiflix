@@ -1,4 +1,4 @@
-🎬 Projeto de Análise de Dados da Netflix
+#🎬 Projeto de Análise de Dados da Netflix
 📌 Objetivo
 
 Este projeto tem como objetivo aplicar um processo de ETL (Extract, Transform, Load) em dados da Netflix, armazená-los em um banco de dados relacional, realizar consultas em SQL, processar dados com Python, e por fim construir um dashboard interativo no Power BI para análise de insights.
@@ -106,3 +106,4 @@ Os EUA e Índia dominam a produção de conteúdo.
 Filmes ainda são maioria no catálogo em relação às séries.
 
 Dramas e Documentários aparecem como os gêneros mais recorrentes.
+

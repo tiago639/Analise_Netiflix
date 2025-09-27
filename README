@@ -1,0 +1,105 @@
+NETFLIX DATA ANALYSIS DASHBOARD
+
+Este projeto consiste em uma análise completa de dados do catálogo da Netflix, incluindo ETL, visualizações e um dashboard interativo.
+
+ESTRUTURA DO PROJETO
+
+projeto-netflix/
+│
+├── Netflix Dashboard.pbix              # Dashboard interativo (Power BI)
+├── etl_netflix.py                      # Script de ETL (Extract, Transform, Load)
+├── netflix.db                          # Banco de dados SQLite
+├── netflix_titles.csv                  # Dataset original
+├── sql_scripts.py                      # Scripts SQL para análise
+│
+├── Visualizações/
+│   ├── distribuicao_duracao.png           # Distribuição de durações
+│   ├── distribuicao_rating.png            # Distribuição de classificações
+│   ├── distribuicao_tipo.png              # Distribuição por tipo (Filme/Série)
+│   ├── evolucao_mensal.png                # Evolução mensal de lançamentos
+│   ├── top_atores.png                     # Top atores/atrizes
+│   ├── top_generos.png                    # Top gêneros
+│   └── top_paises.png                     # Top países de produção
+│
+└── README.md                           # Este arquivo
+
+FUNCIONALIDADES
+
+• ETL Automatizado: Processamento e limpeza de dados do catálogo Netflix
+• Análise Exploratória: Visualizações estatísticas dos dados
+• Dashboard Interativo: Relatório completo no Power BI
+• Banco de Dados: Armazenamento local em SQLite
+• Consultas SQL: Scripts para análise específica
+
+TECNOLOGIAS UTILIZADAS
+
+• Python: Pandas, SQLAlchemy para ETL
+• Power BI: Dashboard e visualizações
+• SQLite: Banco de dados relacional
+• SQL: Consultas e análises
+
+PRINCIPAIS ANÁLISES
+
+1. Distribuição de Conteúdo
+   • Proporção entre Filmes e Séries
+   • Classificações indicativas mais comuns
+   • Distribuição de durações
+
+2. Tendências Temporais
+   • Evolução mensal de lançamentos
+   • Padrões sazonais
+
+3. Rankings e Top Lists
+   • Atores/Atrizes mais frequentes
+   • Gêneros mais populares
+   • Países com maior produção
+
+COMO USAR
+
+PRÉ-REQUISITOS
+• Python 3.x
+• Power BI Desktop
+• Bibliotecas Python: pandas, sqlalchemy
+
+EXECUTANDO O ETL
+python etl_netflix.py
+
+ACESSANDO O DASHBOARD
+1. Abra o arquivo "Netflix Dashboard.pbix" no Power BI Desktop
+2. Atualize a conexão com o banco de dados se necessário
+
+CONSULTANDO O BANCO DE DADOS
+python sql_scripts.py
+
+RESULTADOS ESPERADOS
+
+Após executar o pipeline completo, você terá:
+• Dados processados e normalizados no banco SQLite
+• Visualizações estáticas das principais análises
+• Dashboard interativo com insights do catálogo Netflix
+
+DADOS
+
+O dataset original ("netflix_titles.csv") contém informações sobre:
+• Títulos e descrições
+• Tipo (Filme/Série)
+• Diretores, elenco
+• Países de produção
+• Data de adição à plataforma
+• Classificação indicativa
+• Duração
+• Gêneros
+
+DESENVOLVIMENTO
+
+Para contribuir com o projeto:
+1. Faça um fork do repositório
+2. Crie uma branch para sua feature
+3. Commit suas mudanças
+4. Abra um Pull Request
+
+CONTATO
+
+Para dúvidas ou sugestões, entre em contato através dos canais do projeto.
+
+Última atualização: Setembro 2025
